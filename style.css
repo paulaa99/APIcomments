@@ -3,6 +3,37 @@
     font-size: 24px;
     color: gold;
 }
+/* Estilo de los comentarios de la API */
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    color: #395757;
+}
+#comments-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #dcf1f0;
+    padding: 20px;
+    border: 3px solid #4f7272;
+    border-radius: 5px;
+}
+
+#comments-container > div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #3f464d;
+}
+
+#comments-container > div:hover {
+    background-color: #a3c2c2;
+    color: aliceblue;
+}
+
+#comments-container > div p::first-letter{
+    text-transform: capitalize;
+}
 
 {
     padding: 0%;
