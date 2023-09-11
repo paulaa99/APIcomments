@@ -4,34 +4,49 @@
     color: gold;
 }
 
-/* Estilo de los comentarios de la API */
-h1 {
-    margin: 20px auto;
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #D5F9DE;
+}
+
+#titulo{
+    background-color: #DBF4A7;
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid #395757;   
+}
+
+#titulo h1{
     text-align: center;
+    padding: 2%;
+    font-family: monospace;
+    font-size: 45px;
     color: #395757;
 }
-#comments-container {
-    max-width: 1000px;
-    margin: 20px auto;
-    background-color: #dcf1f0;
-    padding: 20px;
-    border: 3px solid #4f7272;
-    border-radius: 5px;
+
+#agregar{
+    background-color: #DBF4A7;
+    width: 100vw;
+    height: 100vh;
+    border-top: solid #395757;
 }
 
-#comments-container > div {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    color: #3f464d;
+#agregar h2{
+    padding: 1%;
+    font-family: monospace;
+    font-size: 25px;
+    color: #395757
 }
 
-#comments-container > div:hover {
-    background-color: #a3c2c2;
-    color: aliceblue;
-}
-
-#comments-container > div p::first-letter{
-    text-transform: capitalize;
+#comment-form{
+    margin: 1%;
+    width: 390px;
+    height: auto;
+    padding: 1%;
+    background-color: #8FA6CB;
+    border-radius: 2%;
 }
