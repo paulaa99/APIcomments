@@ -34,8 +34,7 @@ h1 {
 #comments-container > div p::first-letter{
     text-transform: capitalize;
 }
-
-{
+*{
     padding: 0%;
     margin: 0%;
 }
