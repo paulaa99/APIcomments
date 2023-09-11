@@ -17,3 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 });
+
+    // Función para obtener una puntuación aleatoria (solo para simulación)
+       const estrellasAleatorias = Math.floor(Math.random() * 5) + 1;
+       
+       function mostrarEstrellasAleatorias(){
+        return estrellasAleatorias;
+    }
