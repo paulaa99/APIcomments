@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 const comment = data[i];
                 const commentElement = document.createElement("div");
                 commentElement.innerHTML = `
-                    <p><strong> Comentario:
-                    <br> </strong> ${comment.body}</p>
-                `;
+                <p><strong>Comentario:</strong></p>
+                <p>${comment.body}</p>
+            `;
                 commentsContainer.appendChild(commentElement);
             }
         });

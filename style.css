@@ -31,3 +31,7 @@ h1 {
     background-color: #a3c2c2;
     color: aliceblue;
 }
+
+#comments-container > div p::first-letter{
+    text-transform: capitalize;
+}
