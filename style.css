@@ -9,6 +9,10 @@
     margin-right: 5px;
     color: black;
   }
+  
+  .fa.fa-star.checked {
+    color: gold;
+}
 /* Estilo de los comentarios de la API */
 h1 {
     margin: 20px auto;

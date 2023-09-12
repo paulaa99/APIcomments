@@ -29,12 +29,13 @@ document.addEventListener("DOMContentLoaded", function() {
             for (let i = 0; i < 10; i++) {
                 const comment = data[i];
                 const commentElement = document.createElement("div");
-                const superEstrellas = rellenarEstrellas(estrellas, mostrarEstrellasAleatorias());
+                const puntuacionAleatoria = Math.floor(Math.random() * 5) + 1; 
+                const superEstrellas = rellenarEstrellas(estrellas, puntuacionAleatoria);
                 commentElement.innerHTML = `
-                <p><strong>Comentario:</strong></p>
-                <p>${superEstrellas}</p>
-                <p>${comment.body}</p>
-            `;
+                    <p><strong>Comentario:</strong></p>
+                    <p>${superEstrellas}</p>
+                    <p>${comment.body}</p>
+                `;
                 commentsContainer.appendChild(commentElement);
             }
         });
@@ -79,11 +80,3 @@ btn_comentario.addEventListener('click', function(event) {
   });
   
 });
-
-    // Función para obtener una puntuación aleatoria (solo para simulación)
-       const estrellasAleatorias = Math.floor(Math.random()+1);
-       
-       function mostrarEstrellasAleatorias(){
-        console.log(estrellasAleatorias)
-        return estrellasAleatorias;
-    }
