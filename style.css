@@ -1,8 +1,14 @@
  /* Estilos para las estrellas */
- .rating {
-    font-size: 24px;
+ .star:hover {
     color: gold;
-}
+  }
+  
+  .star {
+    font-size: 50px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: black;
+  }
 /* Estilo de los comentarios de la API */
 h1 {
     margin: 20px auto;
